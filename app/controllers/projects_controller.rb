@@ -5,6 +5,7 @@ class ProjectsController < ApplicationController
   # GET /projects.json
   def index
     @projects = Project.all
+    @project = Project.new
   end
 
   # GET /projects/1
@@ -31,6 +32,7 @@ class ProjectsController < ApplicationController
 
     respond_to do |format|
       if @project.save
+        format.js { render layout: false }
         format.html { redirect_to @project, notice: 'Project was successfully created.' }
         format.json { render action: 'show', status: :created, location: @project }
       else
