@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'rmagick'
 gem 'quiet_assets'
 gem 'carrierwave'
+gem 'figaro'
 
 gem 'devise'
 

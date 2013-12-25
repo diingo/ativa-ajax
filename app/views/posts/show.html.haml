@@ -8,5 +8,6 @@
 - if @post.attachment_url == ""
   no attachment available
 -else
-  %iframe{height: "800", width:"100%", frameBorder: "0", src: @post.attachment_url}
-  %img{src: @post.attachment_url}
+  %img{src: @post.attachment_url(:medium)}
+  %img{src: @post.attachment_url(:thumb)}
+
