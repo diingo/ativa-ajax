@@ -42,8 +42,8 @@ group :doc do
 end
 
 group :test, :development do
-  gem 'pry-plus'
-  gem 'pry-rails'
+  # gem 'pry-plus'
+  # gem 'pry-rails'
   gem 'hirb'
 end
 
