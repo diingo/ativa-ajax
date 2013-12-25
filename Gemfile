@@ -5,6 +5,7 @@ gem 'quiet_assets'
 gem 'carrierwave'
 gem 'figaro'
 gem 'fog'
+gem 'unf'
 
 gem 'devise'
 
