@@ -4,6 +4,7 @@ gem 'rmagick'
 gem 'quiet_assets'
 gem 'carrierwave'
 gem 'figaro'
+gem 'fog'
 
 gem 'devise'
 
