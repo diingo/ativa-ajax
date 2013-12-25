@@ -1,4 +1,5 @@
 class Post < ActiveRecord::Base
+  mount_uploader :attachment, ImageUploader
   belongs_to :phase
   belongs_to :project
   belongs_to :user

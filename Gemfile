@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'quiet_assets'
+gem 'carrierwave'
+
 gem 'devise'
 
 # Use HAML
